@@ -12,8 +12,8 @@ def get_rounds(number):
     """
 
     rounds = []
-    for round in range(number, number + 3, 1):
-        rounds.append(round)
+    for i in range(number, number + 3, 1):
+        rounds.append(i)
     return rounds
 
 
